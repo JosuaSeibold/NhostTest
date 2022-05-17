@@ -16,6 +16,6 @@ export default (req, res) => {
     }
     const finish = Date.now();
     const time = finish - start;
-    functions.logger.info(time);
+    console.log(time);
     res.status(200);
 };
